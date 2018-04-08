@@ -12,8 +12,8 @@ View Travis: https://travis-ci.org/aaronherman/python-unit-test/builds
 ## Running the unit tests
 You can run the unit tests with the following command
 ```
-python3 test/unit_tests.py
+python3 unit_tests.py
 ```
 
 ## Add more unit tests
-You should add more test cases to the `test/unit_tests.py` file. You should test for subtraction, division and multiplication. 
+You should add more test cases to the `unit_tests.py` file. You should test for subtraction, division and multiplication. 
