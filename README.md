@@ -1,7 +1,6 @@
 # Unit testing with Travis CI
 
-https://travis-ci.org/aaronherman/python-unit-test.svg?branch=master
-
+[![Build Status](https://travis-ci.org/aaronherman/python-unit-test.svg?branch=master)](https://travis-ci.org/aaronherman/python-unit-test)
 ## How Travis CI Works
 Once you have created a project on GitHub, you will need to add a `.travis.yml` file which sets the configurations for Travis. For instance, what languages will you be using? Do you need a specific operating system? If something fails, should it email a certain address? 
 
