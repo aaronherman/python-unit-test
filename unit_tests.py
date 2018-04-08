@@ -21,7 +21,12 @@ class TestCalculator(unittest.TestCase):
     def test_subtract(self):
         '''Testing subtract method'''
         calculator = cal(self.a, self.b)
-        #TODO: Implement this
+        #TODO: Implement this. Add the assertEqual with the correct result.
+
+    def test_multiply(self):
+        '''Testing mul method'''
+        calculator = cal(self.a, self.b)
+        #TODO: Implement this. Add the assertEqual with the correct result.
 
 
 if __name__ == '__main__':
