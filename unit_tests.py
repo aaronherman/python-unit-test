@@ -17,10 +17,11 @@ class TestCalculator(unittest.TestCase):
         # print(calculator.add())
 
         self.assertEqual(calculator.add(),443)
-    
+
     def test_subtract(self):
         '''Testing subtract method'''
         calculator = cal(self.a, self.b)
+        self.assertEqual(calculator.sub(), 435)
         #TODO: Implement this
 
 
