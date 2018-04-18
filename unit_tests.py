@@ -22,7 +22,6 @@ class TestCalculator(unittest.TestCase):
         '''Testing subtract method'''
         calculator = cal(self.a, self.b)
         self.assertEqual(calculator.sub(), 435)
-        #TODO: Implement this
 
 
 if __name__ == '__main__':
