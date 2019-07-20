@@ -23,6 +23,5 @@ class TestCalculator(unittest.TestCase):
         calculator = cal(self.a, self.b)
         self.assertEqual(calculator.sub(), 435)
 
-
 if __name__ == '__main__':
     unittest.main(verbosity=2)
