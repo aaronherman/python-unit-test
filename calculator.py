@@ -11,6 +11,16 @@ class cal():
     def sub(self):
         return self.a-self.b
 
+def add(args):
+    sum = 0
+    for number in args:
+        sum += number
+    return sum
+
+def subtract(ags):
+    '''Write unit test for subtracting'''
+    raise NotImplementedError
+
 def main():
     a = 4
     b = 7
